@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- TOP NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container">
+        <!-- AGRILABOR LOGO AND TITLE -->
+        <div class="d-flex align-items-center">
+          <img src="img/smart-factory.png" alt="" class="img-size img-fluid" />
+          <a href="#" class="navbar-brand text-dark h2 px-1"
+            >Agri<span class="text-success">Labor</span></a
+          >
+        </div>
+        <!-- BUTTON COLLAPSE FOR SMALL SCREEN SIZE -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- NAVBAR LINK -->
+        <div class="collapse navbar-collapse pt-3 pt-sm-2" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"
+                ><i class="fa fa-lightbulb mx-1"></i>About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="apply.html" class="nav-link"
+                ><i class="fa fa-tractor mx-1"></i>Apply</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="hire.html" class="nav-link"
+                ><i class="fa fa-users mx-1"></i>Hire</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="farms.html" class="nav-link"
+                ><i class="fa fa-wheat-alt mx-1"></i>Farms</a
+              >
+            </li>
+            <!-- DROPDOWN -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa fa-user mx-1"></i>Account
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="profile.html"
+                    ><i class="fa fa-user mx-1 text-success"></i>My Profile</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="fa fa-wheat-alt mx-1 text-success"></i>My Farm</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="fa fa-gear mx-1 text-success"></i>Settings</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="fa fa-arrow-right mx-1 text-success"></i
+                    >Logout</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END TOP NAVIGATION BAR -->
+
+    <!-- PROFILE -->
+    <!-- <div class="container">
+      <div class="bg-light cover-photo">
+        <img src="img/rice_field.jpg" alt="" class="img-fluid" />
+      </div>
+    </div> -->
+    <!-- END PROFILE -->
+
+    <!-- PROFILE -->
+    <section>
+      <div class="container">
+        <div class="row pt-0 pt-sm-5">
+          <div class="col-md-5">
+            <div class="card text-light">
+              <div class="card-body text-center bg-success">
+                <img
+                  src="img/male_profile_1.png"
+                  alt=""
+                  class="img-fluid user-profile border rounded-circle bg-light"
+                />
+                <h5 class="mb-0 card-title">Juan Dela Cruz</h5>
+                <p class="ts-1 card-text">Tagum City, Davao Del Norte</p>
+                <a href="#" class="btn btn-dark btn-sm mx-1">Message</a>
+                <a
+                  href="#"
+                  class="btn btn-light border border-success text-success btn-sm mx-1"
+                  >My Farm</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="pt-3 pt-md-0 col-md-7">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fa fa-book mx-2"></i>Contacts
+                </h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <span class="text-success">Address:</span> Tagum City, Davao
+                    Del Norte, Philippines.
+                  </li>
+                  <li class="list-group-item">
+                    <span class="text-success">Tel no:</span> 8XXX-YYYY
+                  </li>
+                  <li class="list-group-item">
+                    <span class="text-success">Mobile No:</span> (+63)
+                    9635884974
+                  </li>
+                  <li class="list-group-item">
+                    <span class="text-success">Email:</span>
+                    agrilabortagum@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fa fa-check mx-2"></i>Bio</h5>
+
+                <p class="card-text ts-1 text-center">
+                  Juan Dela Cruz here; nice to meet you. I labor diligently and
+                  with humility. You can contact me at any moment, and I'm happy
+                  to take on any job.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-2 py-md-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fa fa-tools mx-2"></i>Skills
+                </h5>
+                <ul class="list-group list-group-flush ts-1">
+                  <li class="list-group-item">
+                    <span class="text-success">Driver</span>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="text-success">Welding</span>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="text-success">Tractor Operator</span>
+                  </li>
+                  <li class="list-group-item">
+                    <span class="text-success">Harvester Operator</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 pb-5 pb-md-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fa fa-truck mx-2"></i>Services Offer / Other
+                  Informations
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PROFILE -->
+
+    <!-- SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- END SCRIPT -->
+  </body>
+</html>

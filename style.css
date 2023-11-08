@@ -1,0 +1,74 @@
+body {
+  background-color: aliceblue;
+}
+
+.img-size {
+  width: 45px;
+  max-width: 100%;
+}
+
+.img-info {
+  width: 820px;
+  max-width: 100%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.footer-img {
+  width: 30px;
+  max-width: 100%;
+}
+
+.img-feature {
+  width: 320px;
+  max-width: 50%;
+}
+
+.ts-1 {
+  font-size: 12px;
+}
+
+.farm-profile {
+  width: 40px;
+  max-width: 100%;
+}
+
+.user-profile {
+  width: 150px;
+  max-width: 100%;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: rgb(26, 109, 70);
+  color: white;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.login-icon {
+  width: 50px;
+  max-width: 100%;
+}
+
+.w-20 {
+  width: 20%;
+  max-width: 50%;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.cover-photo {
+  display: block;
+  max-width: 1000px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+}

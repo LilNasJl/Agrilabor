@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- TOP NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container">
+        <!-- AGRILABOR LOGO AND TITLE -->
+        <div class="d-flex align-items-center">
+          <img src="img/smart-factory.png" alt="" class="img-size img-fluid" />
+          <a href="#" class="navbar-brand text-dark h2 px-1"
+            >Agri<span class="text-success">Labor</span></a
+          >
+        </div>
+        <!-- BUTTON COLLAPSE FOR SMALL SCREEN SIZE -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- NAVBAR LINK -->
+        <div class="collapse navbar-collapse pt-3 pt-sm-2" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"
+                ><i class="fa fa-lightbulb mx-1"></i>About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="apply.html" class="nav-link"
+                ><i class="fa fa-tractor mx-1"></i>Apply</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="hire.html" class="nav-link"
+                ><i class="fa fa-users mx-1"></i>Hire</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="farms.html" class="nav-link"
+                ><i class="fa fa-wheat-alt mx-1"></i>Farms</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="signin.html" class="nav-link active"
+                ><i class="fa fa-user mx-1"></i>Sign In</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END TOP NAVIGATION BAR -->
+
+    <!-- FORM FORGOT PASS -->
+    <section class="pt-2 px-3 pb-5">
+      <div class="container p-2 p-sm-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-6">
+            <img src="img/forgot-password.png" alt="" class="img-fluid w-100" />
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div
+                class="d-flex align-items-center justify-content-center py-2"
+              >
+                <img
+                  src="img/smart-factory.png"
+                  alt=""
+                  class="img-fluid login-icon mx-1"
+                />
+                <h4 class="text-start py-3">Forgot Your Password?</h4>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Enter password"
+                  class="form-control px-5"
+                  id="username"
+                  placeholder=""
+                  required
+                />
+                <label for="username"
+                  ><i class="fa fa-user text-success mx-2"></i>Enter
+                  Username</label
+                >
+              </div>
+              <div class="form-group mb-3">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" style="font-size: 13px"
+                      >+63</span
+                    >
+                  </div>
+                  <input
+                    autocomplete="off"
+                    type="tel"
+                    class="form-control"
+                    value=""
+                    id="phone"
+                    name="mobile"
+                    placeholder="Mobile number"
+                    pattern="[0-9]{10}"
+                    required
+                    style="font-size: 12px"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="">
+                <button type="submit" class="btn btn-success w-100">
+                  Search
+                </button>
+              </div>
+              <p class="pt-3 text-start">
+                Already have an account?
+                <a href="signin.html" class="text-decoration"
+                  ><span class="text-success">Click Here!</span></a
+                >
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END FORM FORGOT PASS -->
+
+    <!-- SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- END SCRIPT -->
+  </body>
+</html>
